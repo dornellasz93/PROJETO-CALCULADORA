@@ -10,14 +10,14 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(145deg, #001d5c, #0041cc, #000000);
+    background: linear-gradient(90deg, #001d5c, #7ad5ff, #53d7ff);
 }
 
 .container{
-    background-color: #fff;
+    background-color: rgb(255 255 255 / 31%);
     padding: 5px;
     border-radius: 15px;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.432);
     width: 300px;
     height: 400px;
     align-items: center;
@@ -50,11 +50,12 @@ body{
     border-radius: 10px;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.253);
     border: none;
+    transition: all 0.3s linear;
 }
 
-.botao:hover{
-    background-color: #001d5c;
-    transition: background .2s linear;
+.operacao:hover{
+    background-color: #00c3ff;
+    color:#000;
 }
 
 .igual{
